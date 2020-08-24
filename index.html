@@ -1,0 +1,151 @@
+<style>
+    body{
+        font-family: arial, sans-serif;
+    }
+    img{
+        display: block;
+        margin: 200px auto 0;
+    }
+    form{
+        text-align: center;
+    }
+    #button-group{
+        width: max-content;
+        display: block;
+        margin: 20px auto;
+    }
+    nav{
+        width:100%;
+        text-align: end;
+    }
+    ul, li{
+        display:inline;
+        margin-right: 5px;
+    }
+    
+    li{
+        margin: 0 10px;
+    }
+    
+    input{
+        display: block;
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 90%;
+        border: none;
+        padding: 0;
+    }
+   
+    #sign-in{
+        background-color: rgb(70, 131, 234);
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 2px;
+        font-size: small;
+    }
+    #menu{
+        height: 30px;
+        width:30px;
+        display:inline-block;
+        background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+        background-size: 528px 68px;
+        background-position: -138px -32px;
+    }
+    #foot-start{
+        float: left;
+    }
+    #foot-end{
+        float: right;
+    }
+    footer{
+        background-color: #e0e0e0;
+        width: 100%;
+        margin-left: -5px;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        color: #494949;
+        font-size: small;
+    }
+    .ftr-group{
+        border: solid;
+        border-top-width: 1px;
+        border-left-width: 0px;
+        border-bottom-width: 0px;
+        border-right-width: 0px;
+        border-color: #a4a4a4;
+        background-color: #e0e0e0;
+        height: 20px;
+        padding: 10px 0;
+    }
+    span{
+        border: 1px;
+        background-color: #e0e0e0;
+    }
+    #input-container{
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
+        height: 44px;
+        width: 582px;
+        margin: 0px auto;
+    }
+    button {
+        font-family: arial, sans-serif;
+    }
+    .small-font{
+        font-size: small;
+    }
+    
+</style>
+<html>
+    <head></head>
+    <body>
+        <header>
+            <nav>
+                <ul class="small-font">
+                    <li>Gmail</li>
+                    <li>Images</li>
+                </ul>
+                <div id="menu"><a href="wikipedia.org"></a></div>
+                <button id="sign-in" type="button">Sign In</button>
+            </nav>
+        </header>
+        <img src="images/googlelogo_color_272x92dp.png">
+        
+        <form>
+        <div id="input-container">
+        <input type="text">
+        </div>
+        <div id="button-group">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
+        <br>
+        <p class="small-font">Google offered in: <span style="word-spacing: 8px; background-color: transparent;"><a class="small-font">Filipino</a> <a class="small-font">Cebuano</a></span></p>
+        </form>
+        <footer>
+            <p style="margin: 0px; padding-left: 10px;" class="ftr-group">Philippines</p>
+            
+                <div class="ftr-group">
+            <span id="foot-start">
+                <ul style="padding-left: 0px;">
+                    <li>Advertising</li>
+                    <li>Business</li>
+                    <li>About</li>
+                    <li>How Search works</li>
+                </ul>
+            </span>
+            <span id="foot-end">
+                <ul>
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Settings</li>
+                </ul>
+            </span>
+        </div>
+            
+        </footer>
+        
+    </body>
+</html>
